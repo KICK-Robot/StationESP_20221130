@@ -9,10 +9,10 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 uint8_t servoIn  = 14;
 uint8_t servoOut = 15;
 
-const int digitalPin1 = 2; // 入口Sub
-const int digitalPin2 = 3; // 入口Main
-const int digitalPin3 = 4; // 出口Main
-const int digitalPin4 = 5; // 出口Sub
+const int digitalPin1 = 2; // 入口Sub    ESP32  4
+const int digitalPin2 = 3; // 入口Main   ESP32 18
+const int digitalPin3 = 4; // 出口Main   ESP32 19
+const int digitalPin4 = 5; // 出口Sub    ESP32 23
 int val1 = HIGH;  // 制御ピン（In側Sub）
 int val2 = HIGH;  // 制御ピン（In側Main）
 int val3 = HIGH;  // 制御ピン（Out側Main)
